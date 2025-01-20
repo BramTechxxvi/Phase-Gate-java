@@ -9,9 +9,13 @@ public class Factors {
 		return result;
 	}
 
+
+
+
+
 	public static void main(String... args) {
-System.out.println(factor(10));
+		System.out.println(factor(10));
 
 
-}
+	}
 }
