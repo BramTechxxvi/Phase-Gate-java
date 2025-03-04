@@ -5,9 +5,9 @@ public class TwoHighestNumberTest {
 
 	@Test
 	public void testThatFunctionReturnsTwoHighestInArray() {
-	TwoHighestNumber myHighest = new TwoHighestNumber();
-	int[] array = {63, 12, 34, 900, 3};
-	int temp = myHighest.findTwoLargest(array);
+		TwoHighestNumber myHighest = new TwoHighestNumber();
+		int[] array = {63, 12, 34, 900, 3};
+		int temp = myHighest.findTwoLargest(array);
 	int result = {900, 53};
 	assertArrayEquals(result, temp);
 	}

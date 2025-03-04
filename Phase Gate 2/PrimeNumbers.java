@@ -2,7 +2,7 @@ public class PrimeNumbers {
 
 	public static int primeNumber(int number) {
 			int total = 0;
-		for(int index = 1; index <= number; index++){
+		for(int index = 1; index < number; index++){
 		if (index % 2 != 0 && index % 3 != 0) {
 			total++;	
 

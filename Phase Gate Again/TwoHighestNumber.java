@@ -4,7 +4,7 @@ public class TwoHighestNumber {
 	public int findTwoLargest(int[] array) {
 		int firstLargest = array[0]; int secondLargest = array[0];
 	for (int count = 0; count <array.length; count++) {
-		if (array[count] < firstLargest) {
+		if (array[count] > firstLargest) {
 		firstLargest = array[count];
 		}
 	for (int counter = count+1; counter <array.length; counter++) {

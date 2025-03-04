@@ -6,9 +6,13 @@ public class IndexOfLargestTest {
 	@Test
 	public void testThatFunctionReturnsLargest() {
 		IndexOfLargest myMethod = new IndexOfLargest();
-		int[][] find = {{-63, -12, -34}, {-900, -3, -14}, {-2, -60,- 48}};
-		int[][] temp = myMethod.indexOfLargest(find);
-		int[] result = {1, 0};
+		double[][] find = {
+				{-63.0, -12.0, -34.0}, 
+				{-900.0, -3.0, -14.0}, 
+				{-2.0, -60.0,- 48.0}
+				};
+		int[] temp = myMethod.indexOfLargest(find);
+		int[] result = {2, 0};
 		assertArrayEquals(result, temp);
 	}
 }

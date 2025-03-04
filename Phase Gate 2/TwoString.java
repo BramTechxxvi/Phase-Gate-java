@@ -1,7 +1,8 @@
 public class TwoString {
 
 public static boolean subString(String first, String second) {
-		first.length;
+	String result = " ";
+		int p =first.length;
 	if (second.charAt() == first.charAt());
 		return true;
 

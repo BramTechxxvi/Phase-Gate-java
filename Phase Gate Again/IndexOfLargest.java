@@ -29,7 +29,7 @@ public class IndexOfLargest {
 			  {-1.2, -3.4},
 			  {-2.5, -0.5}
 			};
-	int[] tempe = myIndex.indexOfLargest(array2);
-	System.out.print(Arrays.toString(tempe));
+	int[] temp2 = myIndex.indexOfLargest(array2);
+	System.out.print(Arrays.toString(temp2));
 }
 }
